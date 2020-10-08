@@ -1,95 +1,32 @@
 @charset "UTF-8";
-html, body{
-    width: 70%;
+html, body {
+    width: 85%;
     margin: auto;
-    margin-top: 1%;
+    margin-top: 1px;
     padding-left: 5%;
     padding-right: 5%;
     font-family: 'Nunito', sans-serif;
+
 }
-h1 {
-    text-align: center;
+.logo {
+    width: 85px;
+    height: 50px;
 }
-.menu{
+.menu a, div, ul, li {
     display: inline;
+    vertical-align: middle;
 }
-.menu li a{
-    text-decoration: none;
-}
-.right{
+.menu ul {
     float: right;
 }
-.logo{
-    height: 65px;
-    width: 90px;    
+.barra {
+    margin-left: 10%;
+    padding: 5px;
+}
+.menu li:before {
+    content: " | ";
 }
 
-
-
-
-
-.header {
-    display:inline-flex,absolute;
-    padding: 0;
-    margin: 0;
-}
-.header ul{
-    position: relative;
-    padding: 0;
-    margin: 0;
-    float: right;
-}
-.header li{
-    display: inline;
-    list-style: none;
-    border-top: none;
-    border-right: 2px black solid;
-    padding-left: 8px;
-    padding-right: 8px;
-
-}
-#button {
-    padding: 7px;
-    border-radius: 12px;
-    background-color:#424242;
-    color: white;
-    font-style: normal;
-}
-.banner {
-    width: 468px;
-    height: 60px;
-    margin-left: 50%;
-    margin-right: 50%;
-
-}
-
-img {
-    width: 250px;
-    height: 250px;
-}
-.images li,figure{
-    display: inline;
-    margin: 8px;
-    padding: 7px;
-}
-.images figcaption{
-    display: inline;
-}
-
-#divBusca{
-    background-color:#2F4F4F;
-    border:solid 1px;
-    border-radius:15px;
-    width:300px;
-}
-  
-#txtBusca{
-    float:left;
-    background-color:transparent;
-    padding-left:5px;
-    font-style:italic;
-    font-size:18px;
-    border:none;
-    height:32px;
-    width:260px;
+.menu li:first-child:before {
+    content: none;
 }
