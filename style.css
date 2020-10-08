@@ -1,1 +1,28 @@
 @charset "UTF-8";
+html, body{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.header {
+    display:inline-flex,absolute;
+    padding: 0;
+    margin: 0;
+}
+.header ul{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+.header li{
+    display: inline;
+    list-style: none;
+    margin-left: 15px;
+    border-right: 5px;
+}
+#button {
+    padding: 7px;
+    border-radius: 12px;
+    background-color:#424242;
+    color: white;
+}
