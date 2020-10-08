@@ -1,8 +1,33 @@
 @charset "UTF-8";
 html, body{
+    width: 70%;
+    margin: auto;
+    margin-top: 1%;
     padding-left: 5%;
     padding-right: 5%;
+    font-family: 'Nunito', sans-serif;
 }
+h1 {
+    text-align: center;
+}
+.menu{
+    display: inline;
+}
+.menu li a{
+    text-decoration: none;
+}
+.right{
+    float: right;
+}
+.logo{
+    height: 65px;
+    width: 90px;    
+}
+
+
+
+
+
 .header {
     display:inline-flex,absolute;
     padding: 0;
@@ -28,6 +53,7 @@ html, body{
     border-radius: 12px;
     background-color:#424242;
     color: white;
+    font-style: normal;
 }
 .banner {
     width: 468px;
@@ -36,9 +62,7 @@ html, body{
     margin-right: 50%;
 
 }
-h1 {
-    text-align: center;
-}
+
 img {
     width: 250px;
     height: 250px;
@@ -50,4 +74,22 @@ img {
 }
 .images figcaption{
     display: inline;
+}
+
+#divBusca{
+    background-color:#2F4F4F;
+    border:solid 1px;
+    border-radius:15px;
+    width:300px;
+}
+  
+#txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:260px;
 }
