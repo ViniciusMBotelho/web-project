@@ -3,6 +3,6 @@ Sistemas de informação - Campus Pirapora.
 Projeto Web - Prof.:Alessandro Carneiro
 
 Equipe:
-Vinicius Macedo Colares Botelho
+Vinicius Macedo Colares Botelho -
 Ryan da Silva Pereira
 
