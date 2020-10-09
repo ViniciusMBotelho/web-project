@@ -2,15 +2,24 @@
 html, body {
     width: 85%;
     margin: auto;
-    margin-top: 1px;
+    margin-top: 5px;
     padding-left: 5%;
     padding-right: 5%;
     font-family: 'Nunito', sans-serif;
-
 }
 .logo {
     width: 85px;
     height: 50px;
+}
+.barra {
+    margin-left: 10%;
+    padding: 5px;
+}
+.barra input{
+    border-radius: 5px;
+    border: 1px black solid;
+    width: 350px;
+    height: 30px;
 }
 .menu a, div, ul, li {
     display: inline;
@@ -19,14 +28,57 @@ html, body {
 .menu ul {
     float: right;
 }
-.barra {
-    margin-left: 10%;
-    padding: 5px;
-}
 .menu li:before {
     content: " | ";
 }
-
 .menu li:first-child:before {
     content: none;
+}
+.menu li:last-child:before {
+    content: none;
+}
+.carrinho span {
+    margin-left: 15px;
+    border: 1px  #424242 solid;
+    padding: 10px;
+    color: white;
+    background-color: #424242;
+    border-radius: 15px;
+}
+.icons-img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+.menu a {
+    text-decoration: none;
+    font-size: 16pt;
+    color:  #424242;
+    padding: 10px;
+    font-weight: bolder;
+}
+.banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.frase-principal h1 {
+    font-size: 30pt;
+    text-align: center;
+}
+.frase-principal hr {
+    width: 350px;
+    border: 1px #000000 solid;
+}
+.center-img {
+    width: 300px;
+    height: 300px;
+}
+.images {
+    margin-top: 50px;
+}
+.align-img {
+    display: inline-flex;
+    justify-content: center;
 }
