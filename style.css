@@ -15,7 +15,7 @@ html, body {
     margin-left: 10%;
     padding: 5px;
 }
-.barra input{
+.barra input {
     border-radius: 5px;
     border: 1px black solid;
     width: 350px;
@@ -77,8 +77,48 @@ html, body {
 }
 .images {
     margin-top: 50px;
+    margin-left: 2%;
 }
 .align-img {
     display: inline-flex;
     justify-content: center;
+}
+.news {
+    margin-left: 8%;
+}
+.nl {
+    font-size: 40pt;
+}
+.nlt {
+    font-size: 13pt;
+    text-align: justify;
+}
+footer {
+    width: 100%;
+    background: #6C7A89;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    vertical-align: center;
+}
+footer ul {
+    display: inline;
+    width: 100%;  
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.middle {
+    align-items: center;
+    text-align: center;
+}
+.fb {
+    margin: 0px;
+}
+.fc {
+    margin: 0px;
 }
