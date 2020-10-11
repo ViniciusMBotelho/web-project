@@ -21,7 +21,7 @@ html, body {
     width: 350px;
     height: 30px;
 }
-.menu a, div, ul, li {
+.menu a, .menu div, .menu ul, .menu li {
     display: inline;
     vertical-align: middle;
 }
@@ -94,7 +94,7 @@ h2 {
     font-size: 40pt;
     margin-bottom: 0;
 }
-.nlt{
+.nlt {
     font-size: 13pt;
     text-align: justify;
     width: 400px;
@@ -125,17 +125,29 @@ h2 {
 footer {
     width: 100%;
     background: #CCCCCC;
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    vertical-align: center;
+    padding: 10px;
 }
-footer div {
-    padding: 50px;
+footer figure, footer div, footer ul {
+    display: inline;
+    vertical-align: middle;
 }
 footer ul {
     float: right; 
+    list-style: none;
+}
+footer a {
+    text-decoration: none;
+    font-size: 16pt;
+    color:  #424242;
+    padding: 10px;
+    font-weight: bolder;
+}
+footer figure {
+    margin-left: 0;
 }
 .footer-text {
     font-size: 13pt;
@@ -144,10 +156,16 @@ footer ul {
 }
 .footer-text-contato {
     width: 100%;
+    text-align: center;
+}
+.social-div {
+    padding-top: 0;
 }
 .social-img {
     width: 50px;
     height: 50px;
     vertical-align: middle;
 }
-
+.social-link{
+    padding: 0;
+}
