@@ -71,17 +71,17 @@ html, body {
     width: 350px;
     border: 1px #000000 solid;
 }
+.images {
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+.images figure {
+    display: inline-block;
+}
 .center-img {
     width: 300px;
     height: 300px;
-}
-.images {
-    margin-top: 50px;
-    margin-left: 5%;
-}
-.align-img {
-    display: inline-flex;
-    justify-content: center;
 }
 .news {
     margin-left: 10%;
