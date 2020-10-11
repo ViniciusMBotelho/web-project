@@ -131,20 +131,23 @@ footer {
     align-items: center;
     vertical-align: center;
 }
+footer div {
+    padding: 50px;
+}
 footer ul {
-    display: inline;
-    width: 100%;  
+    float: right; 
 }
-.left {
-    float: left;
+.footer-text {
+    font-size: 13pt;
+    text-align: justify;
+    font-weight: normal;
 }
-.right {
-    float: right;
+.footer-text-contato {
+    width: 100%;
 }
-.middle {
-    align-items: center;
-    text-align: center;
+.social-img {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
 }
-.fb, .fc {
-    margin: 0px;
-}
+
