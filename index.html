@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style_index.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Biju WH</title>
 </head>
 <body>
@@ -76,15 +76,17 @@
     </section>    
 
     <section class="news">
-        <div>
-            <h2>Newsletter</h2>
-            <h3 class="nlt">Para maiores informações e notificações de <br> novo produtos, cadastre seu email.</h3>   
-        </div>        
-
-        <form class="form" action="index.html" method="GET">
-            <input type="text" name="nl" id="nl" placeholder="Endereço de Email">
-            <input type="submit" value="Inscreva-se">
-        </form>      
+        <article>
+            <div>
+                <h2>Newsletter</h2>
+                <h3 class="nlt">Para maiores informações e notificações de <br> novo produtos, cadastre seu email.</h3>   
+            </div>        
+    
+            <form class="form" action="contato/cadastro.html" method="POST">
+                <input type="text" name="nl" id="nl" placeholder="Endereço de Email">
+                <input type="submit" value="Inscreva-se">
+            </form>
+        </article>
     </section>
 
     <footer>           

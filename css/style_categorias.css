@@ -2,7 +2,6 @@
 html, body {
     width: 85%;
     margin: auto;
-    margin-top: 5px;
     padding-left: 5%;
     padding-right: 5%;
     font-family: 'Nunito', sans-serif;
@@ -13,7 +12,8 @@ header {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
     background: #CCCCCC;
 }
 header nav, header figure, header div, header ul, header li {
@@ -67,7 +67,8 @@ header nav, header figure, header div, header ul, header li {
 .frase-principal {
     background: #CCCCCC;
     width: 100%;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .frase-principal h1 {
     font-size: 30pt;
@@ -79,14 +80,15 @@ header nav, header figure, header div, header ul, header li {
     border: 1px #000000 solid;
     margin-bottom: 30px;
 }
-.frase-central {
-    margin-top: 20px;
-    margin-left: 20px;
+.frase-principal-2 {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 10px;
 }
-.frase-central h2 {
+.frase-principal-2 h2 {
     font-size: 30pt;
-    padding: 10px;
     text-align: center;
+    margin-bottom: 18px;
 }
 .flex {
     margin-top: 3%;
@@ -99,12 +101,6 @@ header nav, header figure, header div, header ul, header li {
 .center-img {
     width: 250px;
     height: 250px;
-}
-.hr-center {
-    margin-right: -20px;
-}
-.todos-produtos {
-    text-align: center;
 }
 .news {
     display: flex;
@@ -155,7 +151,8 @@ footer {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 footer figure, footer div, footer ul {
     display: inline;
@@ -173,7 +170,7 @@ footer a {
     font-weight: bolder;
 }
 footer figure {
-    margin-left: 0;
+    margin: 0;
 }
 .stars {
     margin: 0;
@@ -212,4 +209,57 @@ footer figure {
 .linha-vertical {
     border-left: 1px solid;
     box-sizing: border-box;
+}
+.garantia {
+    display: flex;
+    justify-content: center;
+}
+.garantia div {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px;
+}
+.garantia h2 {
+    font-size: 20pt;
+    font-weight: 900;
+}
+.garantia hr {
+    border: 1px solid;
+    width: 100px;
+    margin: 0;
+    padding: 0;
+}
+.garantia a {
+    text-decoration: none;
+    font-size: 12pt;
+    color:  #424242;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+}
+.garantia-text {
+    font-size: 9pt;
+    text-align: justify;
+    width: 300px;
+    margin-right: 0;
+    font-weight: normal;
+}
+.contato span {
+    border: 1px  #424242 solid;
+    padding: 10px;
+    color: white;
+    background-color: #424242;
+    border-radius: 1px;
+}
+.todos-produtos-text {
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 22pt;
+    font-weight: bold;
+}
+.hr-1 {
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
