@@ -7,12 +7,23 @@ html, body {
     padding-right: 5%;
     font-family: 'Nunito', sans-serif;
 }
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+header nav, header figure, header div, header ul, header li {
+    display: inline;
+    vertical-align: middle;
+}
 .logo {
     width: 85px;
     height: 50px;
 }
 .barra {
-    margin-left: 10%;
     padding: 5px;
 }
 .barra input {
@@ -21,20 +32,13 @@ html, body {
     width: 350px;
     height: 30px;
 }
-.menu a, .menu div, .menu ul, .menu li {
-    display: inline;
-    vertical-align: middle;
-}
 .menu ul {
     float: right;
 }
 .menu li:before {
     content: " | ";
 }
-.menu li:first-child:before {
-    content: none;
-}
-.menu li:last-child:before {
+.menu li:first-child:before, .menu li:last-child:before {
     content: none;
 }
 .menu a {
@@ -45,7 +49,6 @@ html, body {
     font-weight: bolder;
 }
 .carrinho span {
-    margin-left: 15px;
     border: 1px  #424242 solid;
     padding: 10px;
     color: white;
@@ -58,10 +61,7 @@ html, body {
     vertical-align: middle;
 }
 .banner {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
+    width: 970px;
 }
 .frase-principal h1 {
     font-size: 30pt;
@@ -71,28 +71,31 @@ html, body {
     width: 350px;
     border: 1px #000000 solid;
 }
-.images {
+.flex {
     margin-top: 3%;
     display: flex;
     justify-content: center;
 }
-.images figure {
+.flex figure {
     display: inline-block;
 }
 .center-img {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
 }
 .news {
-    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
-.news h3, form {
+.news div, .news form {
     display: inline-block;
     vertical-align: middle;
 }
 h2 {
     font-size: 40pt;
-    margin-bottom: 0;
+    margin: 0;
 }
 .nlt {
     font-size: 13pt;
@@ -103,16 +106,15 @@ h2 {
 }
 .form {
     padding: 5px;
-    margin-right: 11%;
     float: right;
     display: inline;
-    vertical-align: middle;
 }
 .form input[type='text'] {
     border-radius: 5px;
     border: 1px black solid;
     width: 320px;
     height: 30px;
+    margin-top: 15%;
 }
 .form input[type='submit'] {
     border-radius: 5px;
@@ -121,6 +123,7 @@ h2 {
     height: 34px;
     background-color: #FFFFFF;
     padding: 0px;
+    margin-top: 15%;
 }
 footer {
     width: 100%;
@@ -160,6 +163,8 @@ footer figure {
 }
 .social-div {
     padding-top: 0;
+    display: flex;
+    justify-content: center;
 }
 .social-img {
     width: 50px;
@@ -168,4 +173,13 @@ footer figure {
 }
 .social-link{
     padding: 0;
+}
+.box {
+    width: 2%;
+    float: left;
+    height: 120px;
+}
+.linha-vertical {
+    border-left: 1px solid;
+    box-sizing: border-box;
 }

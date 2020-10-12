@@ -9,11 +9,15 @@
 <body>
     <header>
         <nav class="menu">
-            <a href="index.html"><img class="logo" src="images/logo-bijuWH.png" alt="logo"></a>
+            <figure>
+                <a href="index.html"><img class="logo" src="images/logo-bijuWH.png" alt="logo"></a>
+            </figure>
+            
             <div class="barra">
                 <input type="text" placeholder="Buscar..."/>
                 <a href="#"><img class="icons-img" src="images/lupa-logo.webp" alt="Buscar"/></a>
             </div> 
+
             <ul>
                 <li><a href="">Anéis</a></li>
                 <li><a href="">Brincos</a></li>
@@ -31,12 +35,11 @@
         </nav>
     </header>
 
-    <section class="images">
+    <section class="flex">
         <article>
-            <div>
+            <figure>
                 <img class="banner" src="images/banner.png" alt="banner">
-            </div>
-            
+            </figure>            
         </article>
     </section>
 
@@ -47,7 +50,7 @@
         </article>
     </section>
 
-    <section class="images">
+    <section class="flex">
         <article>            
             <figure>
                 <img class="center-img" src="images/modelo-argolas-pronto.webp" alt="argola">
@@ -72,15 +75,16 @@
         </article>
     </section>    
 
-    <section class="news">           
-        <h2>Newsletter</h2>
-        <h3 class="nlt">Para maiores informações e notificações de <br> novo produtos, cadastre seu email.</h3>   
+    <section class="news">
+        <div>
+            <h2>Newsletter</h2>
+            <h3 class="nlt">Para maiores informações e notificações de <br> novo produtos, cadastre seu email.</h3>   
+        </div>        
 
         <form class="form" action="index.html" method="GET">
             <input type="text" name="nl" id="nl" placeholder="Endereço de Email">
             <input type="submit" value="Inscreva-se">
-        </form>
-      
+        </form>      
     </section>
 
     <footer>           
@@ -89,17 +93,29 @@
             <h3 class="footer-text">Rua das portas, 1040 <br/> Centro - Pirapora</h3>
         </figure>
 
+        <div class="box"></div><div class="box linha-vertical"></div>
+
         <div>
-            <!--class stars-->
+            <figure class="stars">
+                <img src="images/star.png" alt="estrelas">
+                <img src="images/star.png" alt="estrelas">
+                <img src="images/star.png" alt="estrelas">
+                <img src="images/star.png" alt="estrelas">
+                <img src="images/star.png" alt="estrelas">
+            </figure>
+
             <p class="footer-text-contato">Dê-nos o seu feedback.</p>
             <p class="footer-text-contato">Fale conosco</p>
+
             <div class="social-div">
                 <a class="social-link" href="#"><img class="social-img" src="images/facebook-logo.webp" alt="Facebook"></a>
                 <a class="social-link" href="#"><img class="social-img" src="images/instagram-logo.webp" alt="Instagram"></a>
             </div>            
         </div>
+        
+        <div class="box"></div><div class="box linha-vertical"></div>
 
-        <ul class="menu-footer">
+        <ul>
             <li><a href="">Anéis</a></li>
             <li><a href="">Brincos</a></li>
             <li><a href="">Colares</a></li>
