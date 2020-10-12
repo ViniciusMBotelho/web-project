@@ -152,14 +152,22 @@ footer a {
 footer figure {
     margin-left: 0;
 }
+.stars {
+    margin: 0;
+    padding: 0;
+}
 .footer-text {
     font-size: 13pt;
     text-align: justify;
     font-weight: normal;
 }
-.footer-text-contato {
+.footer-text-contato, .footer-text-contato-2 {
     width: 100%;
     text-align: center;
+    margin-top: 0;
+}
+.footer-text-contato-2 {
+    margin-bottom: 0;
 }
 .social-div {
     padding-top: 0;
@@ -167,9 +175,8 @@ footer figure {
     justify-content: center;
 }
 .social-img {
-    width: 50px;
-    height: 50px;
     vertical-align: middle;
+    padding: 4px;
 }
 .social-link{
     padding: 0;
