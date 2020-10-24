@@ -41,14 +41,14 @@ header nav, header figure, header div, header ul, header li {
 .menu li:first-child:before, .menu li:last-child:before {
     content: none;
 }
-.menu a {
+.menu a, .flex-login a {
     text-decoration: none;
     font-size: 16pt;
     color:  #424242;
     padding: 10px;
     font-weight: bolder;
 }
-.carrinho span {
+.carrinho span, .login span {
     border: 1px  #424242 solid;
     padding: 10px;
     color: white;
@@ -78,6 +78,10 @@ header nav, header figure, header div, header ul, header li {
 }
 .flex figure {
     display: inline-block;
+}
+.flex-login {
+    display: flex;
+    justify-content: center;
 }
 .center-img {
     width: 250px;
