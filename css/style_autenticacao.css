@@ -1,0 +1,176 @@
+@charset "UTF-8";
+html, body {
+    width: 85%;
+    margin: auto;
+    margin-top: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: 'Nunito', sans-serif;
+}
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+header nav, header figure, header div, header ul, header li {
+    display: inline;
+    vertical-align: middle;
+}
+.logo {
+    width: 85px;
+    height: 50px;
+}
+.barra {
+    padding: 5px;
+}
+.barra input {
+    border-radius: 5px;
+    border: 1px black solid;
+    width: 350px;
+    height: 30px;
+}
+.menu ul {
+    float: right;
+}
+.menu li:before {
+    content: " | ";
+}
+.menu li:first-child:before, .menu li:last-child:before {
+    content: none;
+}
+.menu a {
+    text-decoration: none;
+    font-size: 16pt;
+    color:  #424242;
+    padding: 10px;
+    font-weight: bolder;
+}
+.carrinho span {
+    border: 1px  #424242 solid;
+    padding: 10px;
+    color: white;
+    background-color: #424242;
+    border-radius: 15px;
+}
+.icons-img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+.frase-principal h1 {
+    font-size: 30pt;
+    text-align: center;
+}
+.flex {
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+.flex div {
+    border: 1px #D3D3D3 solid;
+    padding: 30px;
+    margin: 10px;
+    margin-bottom: 40px;
+    background-color: #D3D3D3;
+    box-shadow: 5px 10px 5px #696969;
+}
+.flex h2 {
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+.flex h3 {
+    margin-top: 2px;
+    font-weight: normal;
+}
+.form {
+    display: grid;
+}
+.form label {
+    margin-top: 10px;
+}
+.form input[type='text'], .form input[type='email'], .form input[type="password"] {
+    border: 1px black solid;
+    width: 320px;
+    height: 30px;
+}
+.form input[type='submit'] {
+    border: 1px black solid;
+    width: 120px;
+    height: 34px;
+    background-color: #424242;
+    color: #FFFFFF;
+    padding: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+footer {
+    width: 100%;
+    background: #CCCCCC;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+footer figure, footer div, footer ul {
+    display: inline;
+    vertical-align: middle;
+}
+footer ul {
+    float: right; 
+    list-style: none;
+}
+footer a {
+    text-decoration: none;
+    font-size: 16pt;
+    color:  #424242;
+    padding: 10px;
+    font-weight: bolder;
+}
+footer figure {
+    margin-left: 0;
+}
+.stars {
+    margin: 0;
+    padding: 0;
+}
+.footer-text {
+    font-size: 13pt;
+    text-align: justify;
+    font-weight: normal;
+}
+.footer-text-contato, .footer-text-contato-2 {
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+}
+.footer-text-contato-2 {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 2px;
+    font-size: 14pt;
+}
+.social-div {
+    padding-top: 0;
+    display: flex;
+    justify-content: center;
+}
+.social-img {
+    vertical-align: middle;
+    padding: 4px;
+}
+.social-link{
+    padding: 0;
+}
+.box {
+    width: 2%;
+    float: left;
+    height: 120px;
+}
+.linha-vertical {
+    border-left: 1px solid;
+    box-sizing: border-box;
+}
