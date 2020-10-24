@@ -35,24 +35,23 @@
         </nav>
     </header>
 
-    <section>
-        <article>
-            <hr>
-        </article>
-    </section>
-
-    <section>
-        <article>
+    <div>
+        <hr>
+    </div>
+    
+    <article>
+        <section class="flex">
             <figure>
-                <img src="../images/produtos/aneis/4.jpg" alt="">
+                <img class="produto" src="../images/produtos/aneis/4.jpg" alt="">
             </figure>
 
             <div>
-                <h1></h1>
-                <h3></h3>
+                <h1>Nome do produto</h1>
+                <h3 class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos unde enim numquam omnis id ab deleniti vel eveniet quibusdam fugit, culpa sed quis soluta recusandae praesentium modi magnam deserunt provident.</h3>
 
-                <form action="" method="post">
+                <form class="form" action="" method="post">
                     <select name="tamanho" id="tamanho">
+                        <option value="" disabled selected>Escolha o tamanho</option>
                         <option value="14">14</option>
                         <option value="16">16</option>
                         <option value="18">18</option>
@@ -60,44 +59,38 @@
                         <option value="22">22</option>
                     </select>
 
-                    <input type="number" name="quantidade" id="quantidade">
+                    <input type="number" name="quantidade" id="quantidade" placeholder="1">
+
+                    <input type="submit" value="Coloque no carrinho">
                 </form>
 
-                <figure class="stars">
-                    <img src="../images/rating-stars-empty.png" alt="estrelas">
-                    <img src="../images/rating-stars-empty.png" alt="estrelas">
-                    <img src="../images/rating-stars-empty.png" alt="estrelas">
-                    <img src="../images/rating-stars-empty.png" alt="estrelas">
-                    <img src="../images/rating-stars-empty.png" alt="estrelas">
-                </figure>
-
-                <p class="footer-text-contato">Classificação dos clientes.</p>
-
-                <div>
-                    <a href="#">
-                        <span>
-                            Coloque no carrinho
-                        </span>
-                    </a>
+                <div class="feedback">
+                    <figure class="stars">
+                        <img src="../images/rating-stars-empty.png" alt="estrelas">
+                        <img src="../images/rating-stars-empty.png" alt="estrelas">
+                        <img src="../images/rating-stars-empty.png" alt="estrelas">
+                        <img src="../images/rating-stars-empty.png" alt="estrelas">
+                        <img src="../images/rating-stars-empty.png" alt="estrelas">
+                    </figure>
+    
+                    <p class="feedback-text">Classificação dos clientes.</p>
                 </div>
-            </div>
-        </article>
-    </section>
+            </div>        
+        </section>
+    </article>
 
-    <section>
-        <article>
-            <hr>
-        </article>
-    </section>
+    <div>
+        <hr>
+    </div>
 
-    <section class="frase-principal-2">
-        <article>
+    <article>
+        <section class="frase-principal-2">
             <h2>Produtos Similares</h2>
-        </article>
-    </section>
+        </section>
+    </article>
 
-    <section class="flex">
-        <article>            
+    <article>            
+        <section class="flex">
             <figure>
                 <img class="center-img" src="../images/produtos/aneis/4.jpg" alt="">
                 <figcaption>Argolas<br>R$ 10,99</figcaption>
@@ -117,8 +110,8 @@
                 <img class="center-img" src="../images/produtos/aneis/6.jpg" alt="">
                 <figcaption>Pulseira metalica, safira<br>R$ 11,99</figcaption>
             </figure> 
-        </article>
-    </section>
+        </section>
+    </article>
 
     <footer>           
         <figure>
