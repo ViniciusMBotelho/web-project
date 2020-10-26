@@ -1,65 +1,4 @@
 @charset "UTF-8";
-html, body {
-    width: 85%;
-    margin: auto;
-    margin-top: 5px;
-    padding-left: 5%;
-    padding-right: 5%;
-    font-family: 'Nunito', sans-serif;
-}
-header {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-}
-header nav, header figure, header div, header ul, header li {
-    display: inline;
-    vertical-align: middle;
-}
-.logo {
-    width: 85px;
-    height: 50px;
-}
-.barra {
-    padding: 5px;
-}
-.barra input {
-    border-radius: 5px;
-    border: 1px black solid;
-    width: 350px;
-    height: 30px;
-}
-.menu ul {
-    float: right;
-}
-.menu li:before {
-    content: " | ";
-}
-.menu li:first-child:before, .menu li:last-child:before {
-    content: none;
-}
-.menu a {
-    text-decoration: none;
-    font-size: 16pt;
-    color:  #424242;
-    padding: 10px;
-    font-weight: bolder;
-}
-.carrinho span {
-    border: 1px  #424242 solid;
-    padding: 10px;
-    color: white;
-    background-color: #424242;
-    border-radius: 15px;
-}
-.icons-img {
-    width: 30px;
-    height: 30px;
-    vertical-align: middle;
-}
 .frase-principal h1 {
     font-size: 30pt;
     text-align: center;
@@ -67,6 +6,22 @@ header nav, header figure, header div, header ul, header li {
 .flex {
     display: flex;
     justify-content: center;
+}
+.flex div {
+    border: 1px #D3D3D3 solid;
+    padding: 30px;
+    margin: 10px;
+    margin-bottom: 40px;
+    background-color: #D3D3D3;
+    box-shadow: 5px 10px 5px #696969;
+}
+.flex h2 {
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+.flex h3 {
+    margin-top: 2px;
+    font-weight: normal;
 }
 .form {
     display: grid;
@@ -81,6 +36,7 @@ header nav, header figure, header div, header ul, header li {
 }
 .form textarea {
     border: 1px black solid;
+    width: 320px;
 }
 .form input[type='submit'] {
     border: 1px black solid;

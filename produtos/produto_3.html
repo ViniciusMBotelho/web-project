@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+<html>
 <head>
     <meta charset="UTF-8">
 
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet"/>
-    <link rel="stylesheet" href="../css/style_autenticacao.css"/>
+    <link rel="stylesheet" href="../css/style_detalhes.css"/>
     <link rel="stylesheet" href="../css/style_menu.css"/>
     <link rel="stylesheet" href="../css/style_rodape.css"/>
-
-    <title>Login</title>
+    
+    <title>Pulseira Aberta</title>
 </head>
 <body>
     <header>
@@ -47,52 +48,81 @@
         </nav>
     </header>
 
+    <div class="hr">
+        <hr>
+    </div>
+    
     <article>
-        <section class="frase-principal">
-            <h1>Seu cadastro</h1>
+        <section class="flex">
+            <figure>
+                <img class="produto" src="../images/produtos/pulseiras/4.jpg" alt="Pulseira aberta">
+            </figure>
+
+            <div class="div">
+                <h1>Pulseira Aberta</h1>
+                <h3>Pulseira metálica aberta.</h3>
+
+                <form class="form" action="" method="post">
+                    <select name="tamanho" id="tamanho">
+                        <option value="" disabled selected>Escolha o tamanho</option>
+                        <option value="14">14</option>
+                        <option value="16">16</option>
+                        <option value="18">18</option>
+                        <option value="20">20</option>
+                        <option value="22">22</option>
+                    </select>
+
+                    <input type="number" name="quantidade" id="quantidade" placeholder="1">
+
+                    <input type="submit" value="Coloque no carrinho">
+                </form>
+
+                <div class="feedback">
+                    <figure class="stars">
+                        <img src="../images/rating-stars-empty.png" alt="estrelas">
+                        <img src="../images/rating-stars-empty.png" alt="estrelas">
+                        <img src="../images/rating-stars-empty.png" alt="estrelas">
+                        <img src="../images/rating-stars-empty.png" alt="estrelas">
+                        <img src="../images/rating-stars-empty.png" alt="estrelas">
+                    </figure>
+    
+                    <p class="feedback-text">Classificação dos clientes.</p>
+                </div>
+            </div>        
         </section>
     </article>
 
+    <div class="hr">
+        <hr>
+    </div>
+
     <article>
+        <section class="frase-principal-2">
+            <h2>Produtos Similares</h2>
+        </section>
+    </article>
+
+    <article>            
         <section class="flex">
-            <div>
-                <h2>Já é cadastrado?</h2>
-                <h3>Entre com seus dados</h3>
+            <figure>
+                <img class="center-img" src="../images/produtos/pulseiras/1.jpg" alt="Kit de prata">
+                <figcaption>Kit de prata<br>R$ 25,99</figcaption>
+            </figure>  
 
-                <form class="form" action="../index.html" method="POST">
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email">
-
-                    <label for="password">Senha</label>
-                    <input type="password" name="password" id="pass">
-
-                    <input type="submit" value="Login">
-                </form>
-            </div>
-
-            <div>
-                <h2>Ainda não é cadastrado no site?</h2>
-                <h3>Faça agora mesmo o seu cadastro!</h3>
-
-                <form class="form" action="../index.html" method="POST">
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email">
-                    
-                    <label for="password">Senha</label>
-                    <input type="password" name="password" id="pass">
-                    
-                    <label for="password">Confirme sua senha</label>
-                    <input type="password" name="password" id="pass">
-
-                    <label for="cpf">CPF</label>
-                    <input type="text" name="cpf" id="cpf">
-
-                    <label for="cep">CEP</label>
-                    <input type="text" name="cep" id="cep">
-
-                    <input type="submit" value="Cadastrar">
-                </form>
-            </div>
+            <figure>
+                <img class="center-img" src="../images/produtos/pulseiras/3.jpg" alt="Arqueira de ouro">
+                <figcaption>Arqueira de ouro<br>R$ 28,99</figcaption>
+            </figure>      
+            
+            <figure>
+                <img class="center-img" src="../images/produtos/pulseiras/5.jpg" alt="">
+                <figcaption>Pulseira banhada a ouro<br>R$ 14,99</figcaption>
+            </figure>        
+            
+            <figure>
+                <img class="center-img" src="../images/produtos/pulseiras/6.jpg" alt="">
+                <figcaption>Kit 4 pulseiras de prata<br>R$ 27,99</figcaption>
+            </figure> 
         </section>
     </article>
 
@@ -118,8 +148,8 @@
             <a class="footer-text-contato-2" href="../contato/form.html"><p class="footer-text-contato-2">Fale conosco</p></a>
 
             <div class="social-div">
-                <a class="social-link" href="http://www.facebook.com" target="_blank"><img class="social-img" src="../images/facebook-logo.png" alt="facebook"></a>
-                <a class="social-link" href="http://www.instagram.com" target="_blank"><img class="social-img" src="../images/instagram-logo.png" alt="Instagram"></a>
+                <a class="social-link" href="http://www.facebook.com" target="_blank"><img class="social-img" src="../images/facebook-logo.png" alt="Facebook"></a>
+                <a class="social-link" href="http://www.instragram.com" target="_blank"><img class="social-img" src="../images/instagram-logo.png" alt="Instagram"></a>
             </div>            
         </div>
         

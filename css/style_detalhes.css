@@ -1,84 +1,25 @@
 @charset "UTF-8";
-html, body {
-    width: 85%;
-    margin: auto;
-    padding-left: 5%;
-    padding-right: 5%;
-    font-family: 'Nunito', sans-serif;
-}
-header {
-    width: 100%;
+.flex {
+    margin-top: 3%;
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    align-items: center;
-    padding-top: 15px;
-    padding-bottom: 10px;
-}
-header nav, header figure, header div, header ul, header li {
-    display: inline;
-    vertical-align: middle;
-}
-.logo {
-    width: 85px;
-    height: 50px;
-}
-.barra {
-    padding: 5px;
-}
-.barra input {
-    border-radius: 5px;
-    border: 1px black solid;
-    width: 350px;
-    height: 30px;
-}
-.menu ul {
-    float: right;
-}
-.menu li:before {
-    content: " | ";
-}
-.menu li:first-child:before, .menu li:last-child:before {
-    content: none;
-}
-.menu a {
-    text-decoration: none;
-    font-size: 16pt;
-    color:  #424242;
-    padding: 10px;
-    font-weight: bolder;
-}
-.carrinho span {
-    border: 1px  #424242 solid;
-    padding: 10px;
-    color: white;
-    background-color: #424242;
-    border-radius: 15px;
-}
-.icons-img {
-    width: 30px;
-    height: 30px;
-    vertical-align: middle;
-}
-.div {
-    width: 42%;
-}
-h1 {
-    margin-top: 16px;
-    font-weight: bolder;
-    font-size: 20pt;
 }
 .produto {
     width: 500px;
     height: 500px;
 }
-h1 {
-    font-size: 40pt;
+.div {
+    width: 42%;
+}
+.div h1 {
+    font-size: 30pt;
+    font-weight: bolder;
     padding-bottom: 0px;
     margin: 0;
     margin-left: 10%;
+    margin-top: 16px;    
 }
-.info {
+.div h3 {
     text-align: justify;
     font-weight: normal;
     font-size: 12pt;
@@ -122,92 +63,15 @@ h1 {
 }
 .frase-principal-2 {
     width: 100%;
-    padding-top: 50px;
+    padding-top: 10px;
     padding-bottom: 10px;
 }
 .frase-principal-2 h2 {
     font-size: 20pt;
     text-align: center;
-    margin-bottom: 18px;
-}
-.flex {
-    margin-top: 3%;
-    display: flex;
-    justify-content: center;
+    margin: 0;
 }
 .center-img {
     width: 200px;
     height: 200px;
-}
-h2 {
-    font-size: 40pt;
-    margin: 0;
-}
-footer {
-    width: 100%;
-    background: #CCCCCC;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-}
-footer figure, footer div, footer ul {
-    display: inline;
-    vertical-align: middle;
-}
-footer ul {
-    float: right; 
-    list-style: none;
-}
-footer a {
-    text-decoration: none;
-    font-size: 16pt;
-    color:  #424242;
-    padding: 10px;
-    font-weight: bolder;
-}
-footer figure {
-    margin-left: 0;
-}
-.stars {
-    margin: 0;
-    padding: 0;
-}
-.footer-text {
-    font-size: 13pt;
-    text-align: justify;
-    font-weight: normal;
-}
-.footer-text-contato, .footer-text-contato-2 {
-    width: 100%;
-    text-align: center;
-    margin-top: 0;
-}
-.footer-text-contato-2 {
-    margin: 0;
-    padding: 0;
-    padding-bottom: 2px;
-    font-size: 14pt;
-}
-.social-div {
-    padding-top: 0;
-    display: flex;
-    justify-content: center;
-}
-.social-img {
-    vertical-align: middle;
-    padding: 4px;
-}
-.social-link{
-    padding: 0;
-}
-.box {
-    width: 2%;
-    float: left;
-    height: 120px;
-}
-.linha-vertical {
-    border-left: 1px solid;
-    box-sizing: border-box;
 }

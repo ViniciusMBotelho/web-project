@@ -1,9 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/style_menu.css"/>
+    <link rel="stylesheet" href="css/style_rodape.css"/>
+    
     <title>Biju WH</title>
 </head>
 <body>
@@ -43,39 +47,39 @@
         </nav>
     </header>
 
-    <article>
-        <section class="flex">
-            <figure>
-                <img class="banner" src="images/banner.png" alt="banner">
-            </figure>            
-        </section>
+    <article class="flex">
+        <figure>
+            <img class="banner" src="images/banner.png" alt="banner">
+        </figure>            
     </article>
 
     <article>
-        <section class="frase-principal">
-            <h1>Beleza está nos olhos de quem vê...</h1>
-            <hr>
-        </section>
+        <h1 class="frase-principal">Beleza está nos olhos de quem vê...</h1>
+        <hr class="hr">
     </article>
 
-    <article>            
-        <section class="flex">
+    <article class="flex">            
+        <section>
             <figure>
-                <a href="produtos/detalhes_1.html">
+                <a href="produtos/produto_1.html">
                     <img class="center-img" src="images/produtos/aneis/2.jpg" alt="Anel de Coração">
                 </a>
-                <figcaption>Anel de Coração<br>R$ 6,99</figcaption>
+                <figcaption>Anel de coração<br>R$ 6,99</figcaption>
             </figure>       
-        
+        </section>
+
+        <section>
             <figure>
-                <a href="#">
+                <a href="produtos/produto_2.html">
                     <img class="center-img" src="images/produtos/pulseiras/2.jpg" alt="Pulseira folheada a ouro">
                 </a>
                 <figcaption>Pulseira folheada a ouro<br>R$ 14,99</figcaption>
             </figure>        
+        </section>
         
+        <section>
             <figure>
-                <a href="#">
+                <a href="produtos/produto_3.html">
                     <img class="center-img" src="images/produtos/pulseiras/4.jpg" alt="Pulseira metalica aberta">
                 </a>
                 <figcaption>Pulseira aberta<br>R$ 19,99</figcaption>
@@ -91,7 +95,7 @@
         <section class="news">
             <div>
                 <h2>Newsletter</h2>
-                <h3 class="nlt">Para maiores informações e notificações de <br> novo produtos, cadastre seu email.</h3>   
+                <h3>Para maiores informações e notificações de <br> novo produtos, cadastre seu email.</h3>   
             </div>        
     
             <form class="form" action="contato/mensagem.html" method="POST">
@@ -104,7 +108,7 @@
     <footer>           
         <figure>
             <a href="index.html"><img class="logo" src="images/logo-bijuWH.png" alt="logo"></a>
-            <h3 class="footer-text">Rua das portas, 1040 <br/> Centro - Pirapora</h3>
+            <address class="footer-text">Rua das portas, 1040 <br/> Centro - Pirapora</address>
         </figure>
 
         <div class="box"></div><div class="box linha-vertical"></div>
@@ -119,7 +123,8 @@
             </figure>
 
             <p class="footer-text-contato">Dê-nos o seu feedback.</p>
-            <a href="contato/form.html" class="footer-text-contato-2"><p class="footer-text-contato-2">Fale conosco</p></a>
+
+            <a class="footer-text-contato-2" href="contato/form.html"><p class="footer-text-contato-2">Fale conosco</p></a>
 
             <div class="social-div">
                 <a class="social-link" href="http://www.facebook.com" target="_blank"><img class="social-img" src="images/facebook-logo.png" alt="facebook"></a>

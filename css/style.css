@@ -1,73 +1,12 @@
 @charset "UTF-8";
-html, body {
-    width: 85%;
-    margin: auto;
-    margin-top: 5px;
-    padding-left: 5%;
-    padding-right: 5%;
-    font-family: 'Nunito', sans-serif;
-}
-header {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-}
-header nav, header figure, header div, header ul, header li {
-    display: inline;
-    vertical-align: middle;
-}
-.logo {
-    width: 85px;
-    height: 50px;
-}
-.barra {
-    padding: 5px;
-}
-.barra input {
-    border-radius: 5px;
-    border: 1px black solid;
-    width: 350px;
-    height: 30px;
-}
-.menu ul {
-    float: right;
-}
-.menu li:before {
-    content: " | ";
-}
-.menu li:first-child:before, .menu li:last-child:before {
-    content: none;
-}
-.menu a, .flex-login a {
-    text-decoration: none;
-    font-size: 16pt;
-    color:  #424242;
-    padding: 10px;
-    font-weight: bolder;
-}
-.carrinho span, .login span {
-    border: 1px  #424242 solid;
-    padding: 10px;
-    color: white;
-    background-color: #424242;
-    border-radius: 15px;
-}
-.icons-img {
-    width: 30px;
-    height: 30px;
-    vertical-align: middle;
-}
 .banner {
     width: 970px;
 }
-.frase-principal h1 {
+.frase-principal {
     font-size: 30pt;
     text-align: center;
 }
-.frase-principal hr {
+.hr {
     width: 350px;
     border: 1px #000000 solid;
 }
@@ -78,10 +17,6 @@ header nav, header figure, header div, header ul, header li {
 }
 .flex figure {
     display: inline-block;
-}
-.flex-login {
-    display: flex;
-    justify-content: center;
 }
 .center-img {
     width: 250px;
@@ -97,11 +32,11 @@ header nav, header figure, header div, header ul, header li {
     display: inline-block;
     vertical-align: middle;
 }
-h2 {
+.news h2 {
     font-size: 40pt;
     margin: 0;
 }
-.nlt {
+.news h3 {
     font-size: 13pt;
     text-align: justify;
     width: 400px;
@@ -128,72 +63,4 @@ h2 {
     background-color: #FFFFFF;
     padding: 0px;
     margin-top: 15%;
-}
-footer {
-    width: 100%;
-    background: #CCCCCC;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-}
-footer figure, footer div, footer ul {
-    display: inline;
-    vertical-align: middle;
-}
-footer ul {
-    float: right; 
-    list-style: none;
-}
-footer a {
-    text-decoration: none;
-    font-size: 16pt;
-    color:  #424242;
-    padding: 10px;
-    font-weight: bolder;
-}
-footer figure {
-    margin-left: 0;
-}
-.stars {
-    margin: 0;
-    padding: 0;
-}
-.footer-text {
-    font-size: 13pt;
-    text-align: justify;
-    font-weight: normal;
-}
-.footer-text-contato, .footer-text-contato-2 {
-    width: 100%;
-    text-align: center;
-    margin-top: 0;
-}
-.footer-text-contato-2 {
-    margin: 0;
-    padding: 0;
-    padding-bottom: 2px;
-    font-size: 14pt;
-}
-.social-div {
-    padding-top: 0;
-    display: flex;
-    justify-content: center;
-}
-.social-img {
-    vertical-align: middle;
-    padding: 4px;
-}
-.social-link{
-    padding: 0;
-}
-.box {
-    width: 2%;
-    float: left;
-    height: 120px;
-}
-.linha-vertical {
-    border-left: 1px solid;
-    box-sizing: border-box;
 }
