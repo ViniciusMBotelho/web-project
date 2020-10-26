@@ -1,6 +1,11 @@
 @charset "UTF-8";
 .banner {
     width: 970px;
+    filter:grayscale(100%);
+}
+.banner:hover {
+    filter:grayscale(0%);
+    transition: all 0.8s ease;
 }
 .frase-principal {
     font-size: 30pt;
